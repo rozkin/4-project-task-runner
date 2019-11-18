@@ -3,6 +3,7 @@
 /* Golden */
 /* dark grey */
 /* general text */
+/* headers */
 /* Global */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -50,4 +51,31 @@ section {
 }
 
 /* Services */
+.section-title, .section-subtitle {
+  position: relative;
+  background-color: white;
+}
+
+.section-title h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+
+.boxes {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 96px;
+  text-align: center;
+}
+
+.box-one, .box-two, .box-three {
+  position: absolute;
+  flex: 0 0 50%;
+  padding: 30px 10px;
+}
+
+/* Portfolio */
+
 /*# sourceMappingURL=style.css.map */
