@@ -54,12 +54,15 @@ section {
 
 .section-title, .section-subtitle {
   position: relative;
-  background-color: $color-one;
+  text-align: center;
 }
-.section-title h2 {
+.section-title {
   font-family: $font-header;
   font-weight: bold;
-
+}
+.section-subtitle {
+  font-family: $font-text;
+  font-size: 15px;
 }
 .boxes {
   position: relative;
@@ -76,3 +79,11 @@ section {
 }
 
 /* Portfolio */
+
+.portfolio {
+  padding: 60px;
+}
+.cards p {
+  font-family: $font-text;
+  font-size: 15px;
+}
