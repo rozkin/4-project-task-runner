@@ -1,0 +1,53 @@
+/* Variables */
+/* light grey */
+/* Golden */
+/* dark grey */
+/* general text */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: none;
+  line-height: 1.7;
+  font-family: "Crimson Text", serif;
+  color: C0C0C0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 96px 0 96px 0;
+}
+
+/* Navigation */
+.navigation ul {
+  list-style-type: none;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Services */
+/*# sourceMappingURL=style.css.map */
